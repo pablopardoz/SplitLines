@@ -3,7 +3,7 @@
 #Rutina python/PostGIS para dividir lineas en segmentos y conservar los mismos atributos
 
 import os, psycopg2
-conn = psycopg2.connect(database="alamedarouting", user="postgres", password="postgres", host="127.0.0.1", port="5432")
+conn = psycopg2.connect(database="database_name_here", user="******", password="******", host="127.0.0.1", port="5432")
 
 
 def dividolinea( idlinea ):
